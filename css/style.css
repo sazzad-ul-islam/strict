@@ -1,0 +1,331 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Open Sans', sans-serif;;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Lato', sans-serif;;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+/* GLOBAL CSS code starts */
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-md-12{
+	width: 100%;
+	float: left;
+}
+.col-md-4{
+	width: 33.33%;
+	float: left;
+}
+.col-md-6{
+	width: 50%;
+	float: left;
+}
+
+/* GLOBAL CSS code ends*/
+
+/* Header Section starts*/
+.header-section{
+	width: 100%;
+	float: left;
+	background: #f6f9f9;
+}
+.logo{
+	width: 100%;
+	float: left;
+	padding: 15px 0px;
+}
+
+/* Banner Section starts */
+.banner-section{
+	width: 100%;
+	float: left;
+	padding: 60px 0px 40px;
+	background: url("../images/banner.png") center top no-repeat;
+	background-size: cover;
+}
+.banner-section .banner-inner{
+	width: 100%;
+	float: left;
+	padding: 80px 0px 20px;
+	text-align: center;
+}
+.banner-section .banner-inner h1 {
+    line-height: 80px;
+    font-size: 70px;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+}
+.banner-section .banner-inner .divider{
+	width: 40%;
+	height: 2px;
+	margin: 25px auto;
+	background: #15a4fa;
+}
+.banner-section .banner-inner p{
+	line-height: 26px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.banner-section .banner-inner .btn-info{
+	padding: 15px 40px;
+	background: transparent;
+	border: 1px solid #15a4fa;
+	border-radius: 2px;
+	color: #fff;
+	font-size: 16px;
+	display: inline-block;
+	margin: 25px 0px;
+	transition: 1s;
+}
+.banner-section .banner-inner .btn-info:hover{
+	background: #15a4fa;
+	border: 1px solid #15a4fa;
+	color: #fff;
+}
+.banner-section .banner-inner .icon{
+	width: 100%;
+	float: left;
+	padding: 60px 0px 20px;
+	margin-top: 40px;
+}
+
+/* Simple Section Starts */
+.simple-section{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	background: #f6f9f9;
+}
+.simple-section .simple-inner{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.simple-section .simple-inner h1{
+	line-height: 52px;
+    font-size: 42px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 15px;
+}
+.simple-section .simple-inner p{
+	line-height: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #999999;
+}
+
+/* Feature Section Starts*/
+.feature-section{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+}
+.feature-section .feature-inner{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.feature-section .feature-inner img{
+	margin-bottom: 20px;
+}
+.feature-section .feature-inner h4{
+	font-size: 22px;
+	line-height: 32px;
+	margin: 0px 0px 10px;
+	color: #000;
+}
+.feature-section .feature-inner p{
+	line-height: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #999999;
+}
+
+/* Portfolio Section Starts*/
+.portfolio-section{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	background: #f6f9f9;
+}
+.portfolio-section .title{
+	width: 100%;
+	float: left;
+	padding: 0px 0px 50px;
+	text-align: center;
+}
+.portfolio-section .title h1{
+	line-height: 52px;
+    font-size: 42px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 10px;
+}
+.portfolio-section .title p{
+	line-height: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #999999;
+}
+.portfolio-section .portfolio-inner{
+	width: 100%;
+	float: left;
+	position: relative;
+}
+.portfolio-section .portfolio-inner .port-hover{
+	width: 95%;
+	height: 98%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgb(26, 154, 235, .8);
+	display: none;
+}
+.portfolio-section .portfolio-inner .port-hover .inner-icons{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.portfolio-section .portfolio-inner:hover .port-hover{
+	display: block;
+}
+.portfolio-section .gap{
+	margin-top: 15px;
+}
+.port-hover a{
+	margin: 0px 3px;
+}
+
+/* Stay Section Starts*/
+.stay-section{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	background: url("../images/stay-bg.png") center top no-repeat;
+	background-size: cover;
+}
+.stay-section .title{
+	width: 100%;
+	float: left;
+	padding: 0px 0px 50px;
+	text-align: center;
+}
+.stay-section .title h1{
+	line-height: 52px;
+    font-size: 42px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.stay-section .title p{
+	line-height: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+.stay-section .main-form{
+	width: 55%;
+	margin: 0px auto;
+}
+.stay-section .main-form .form-group{
+	width: 100%;
+	float: left;
+	margin: 10px 0px;
+}
+.stay-section .main-form .form-group .form-control{
+	width: 96%;
+	padding: 15px;
+	background: transparent;
+	border: 2px solid #999999;
+	border-radius: 5px;
+	color: #999999;
+	font-size: 14px;
+}
+.stay-section .main-form .form-group .form-control:focus{
+	border: 2px solid #15a4fa;
+	outline: 0;
+}
+.stay-section .main-form .text-right{
+	text-align: right;
+}
+.form-group span{
+	color: #fff;
+	font-size: 14px;
+	margin-left: 5px;
+}
+.stay-section .btn-primary{
+	padding: 10px 40px;
+	background: transparent;
+	border: 1px solid #15a4fa;
+	border-radius: 2px;
+	color: #fff;
+	font-size: 16px;
+	display: inline-block;
+	transition: 1s;
+}
+.stay-section .btn-primary:hover{
+	background: #15a4fa;
+	border: 1px solid #15a4fa;
+	color: #fff;
+}
+
+/* Footer Section Starts*/
+.footer-section{
+	width: 100%;
+	float: left;
+	padding: 15px 0px;
+}
+.footer-section p{
+	line-height: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #999999;
+    margin-top: 5px;
+}
+.footer-section .social-icons{
+	display: block;
+	text-align: right;
+}
+.footer-section .social-icons li{
+	list-style: none;
+	display: inline-block;
+}
+.footer-section .social-icons li a{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: #15a4fa;
+	border: 1px solid #15a4fa;
+	border-radius: 2px;
+	display: block;
+	font-size: 14px;
+	color: #fff;
+	margin: 0px 0px 0px 5px;
+	transition: 1s;
+}
+.footer-section .social-icons li a:hover{
+	background: transparent;
+	border: 1px solid #15a4fa;
+	color: #15a4fa;
+}
